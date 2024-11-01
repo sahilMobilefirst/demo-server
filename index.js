@@ -4,7 +4,7 @@ const app = express();
 
 // Enable JSON parsing
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+
 // Basic route
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to my API!" });
