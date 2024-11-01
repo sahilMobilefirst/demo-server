@@ -1,10 +1,10 @@
 // index.js
 const express = require("express");
 const app = express();
-
+var path = require("path");
 // Enable JSON parsing
 app.use(express.json());
-
+app.use(express.static(path.join(__dirname, "public")));
 // Basic route
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to my API!" });
