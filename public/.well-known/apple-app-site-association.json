@@ -3,8 +3,8 @@
         "apps": [],
         "details": [
             {
-                "appID": "co.vaar.app",
-                "paths": [ "*" ]
+                "appID": "PLBJHUCZV8.co.vaar.app",
+                "paths": ["/app/*"]
             }
         ]
     }
