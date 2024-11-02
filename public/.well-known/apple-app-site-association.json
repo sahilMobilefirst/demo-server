@@ -4,11 +4,7 @@
         "details": [
             {
                 "appIDs": ["PLBJHUCZV8.co.vaar.app"],
-                "components": [
-                    {
-                        "/": "/app/*",
-                        "comment": "OAuth redirect from Plaid"
-            }]
+                "paths": ["/app/*"]
             }
         ]
     }
